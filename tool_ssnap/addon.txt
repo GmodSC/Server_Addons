@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"Smart Snap"
+	"override"	"1"
+}

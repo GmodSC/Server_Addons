@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"Gmod Legs"
+	"override"	"1"
+}

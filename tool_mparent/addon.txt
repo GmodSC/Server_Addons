@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"Multi-Parent Tool"
+	"override"	"1"
+}

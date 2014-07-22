@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"Easy Precision"
+	"override"	"1"
+}

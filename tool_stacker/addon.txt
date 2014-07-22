@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"Stacker Tool"
+	"override"	"1"
+}
