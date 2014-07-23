@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"vehicles_yugo"
+	"override"	"1"
+}
