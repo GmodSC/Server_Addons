@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sentry/grandcaravan/skin"
+	"$bumpmap" "sentry/grandcaravan/skin_nm"
+    $surfaceprop "metal"
+    $color2 "[0 0 0]"
+    $blendtintbybasealpha "1"
+    $envmap "env_cubemap"
+    $envmaptint "[0.25 0.25 0.3]"
+    $envmapcontrast "1"
+    $envmapsaturation ".5"
+    $envmapfresnel "1"
+    $phong "1"
+    $phongexponent "7"
+    $phongboost "2"
+    $phongfresnelranges "[.05 .3 .5]"
+
+}

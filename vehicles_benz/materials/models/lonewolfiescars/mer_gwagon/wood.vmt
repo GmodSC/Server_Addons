@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/lonewolfiescars/mer_gwagon/wood"
+	"$bumpmap"    "models/lonewolfiescars/mer_gwagon/wood_nm"
+	"$blendtintbybasealpha" "1"
+
+}

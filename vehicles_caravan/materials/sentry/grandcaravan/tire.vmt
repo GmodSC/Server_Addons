@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/grandcaravan/tirea0"
+	"$bumpmap" "sentry/grandcaravan/tirea0_bump"
+	"$nocull" "1"
+	"$blendtintbybasealpha" 1
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "1"
+}

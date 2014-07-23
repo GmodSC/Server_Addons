@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/explorer/under_nfs_hp"
+	"$blendtintbybasealpha" "1"
+    $nocull 1
+}

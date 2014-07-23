@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/mer_gwagon/tire"
+	"$bumpmap" "models/LoneWolfiesCars/mer_gwagon/tire_bump"
+	"$blendtintbybasealpha" 1
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.1"	
+	"$phongfresnelranges"	"[1 1 1]"
+
+}

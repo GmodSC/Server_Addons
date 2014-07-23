@@ -1,0 +1,32 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/mer_gwagon/screen2"
+               "$nocull" "1"
+
+	"$bumpmap" "models/lonewolfiescars/mer_gwagon/skin_nm"
+	"$phong" 1
+	"$phongtint" "[1 1 1]"
+	"$phongexponent" 75
+	"$phongboost" "10"
+	"$phongfresnelranges" "[1 1 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[1.3 1.3 1.0]"
+	"$normalmapalphaenvmapmask" 1
+
+	"$colorfix" "{255 255 255}"
+
+"Proxies" 
+{ 
+"Equals"
+{
+srcVar1 $colorfix
+resultVar	$color
+}
+"AnimatedTexture" 
+{ 
+"animatedTextureVar" "$basetexture" 
+"animatedTextureFrameNumVar" "$frame" 
+"animatedTextureFrameRate"" 9" 
+}
+} 
+}

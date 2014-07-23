@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"vehicles_chevy"
+	"override"	"1"
+}

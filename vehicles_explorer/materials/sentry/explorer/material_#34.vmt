@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "sentry/explorer/black"	
+	"$blendtintbybasealpha" 1
+}

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/explorer/17"
+	"$alphatest" 1
+	"$color2" "[0 0 0]"
+}

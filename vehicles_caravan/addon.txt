@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"vehicles_caravan"
+	"override"	"1"
+}

@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"vehicles_explorer"
+	"override"	"1"
+}

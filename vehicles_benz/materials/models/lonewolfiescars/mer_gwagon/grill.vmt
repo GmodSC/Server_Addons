@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/mer_gwagon/grill"
+	"$bumpmap" "models/LoneWolfiesCars/mer_gwagon/grille_nrm"	
+	"$blendtintbybasealpha" "1"
+    	
+
+}
