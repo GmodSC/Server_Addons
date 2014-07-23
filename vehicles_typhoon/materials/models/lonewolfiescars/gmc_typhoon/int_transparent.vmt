@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/gmc_typhoon/int_transparent"
+	"$translucent" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	"$detail" "models/LoneWolfiesCars/gmc_typhoon/int_emissive"
+	"$detailscale" "1"
+	"$detailblendfactor" "50"
+	"$detailblendmode" "1"
+}

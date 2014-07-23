@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"vehicles_typhoon"
+	"override"	"1"
+}

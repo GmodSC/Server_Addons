@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/gmc_typhoon/nodamage"
+	"$translucent" 1
+}

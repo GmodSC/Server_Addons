@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/gmc_typhoon/int"
+	"$bumpmap" "models/LoneWolfiesCars/shared/skin_nm"
+	"$blendtintbybasealpha" 1
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.03" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 2
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+	"$detail" "models/LoneWolfiesCars/gmc_typhoon/int_emissive"
+	"$detailscale" "1"
+	"$detailblendfactor" "30"
+	"$detailblendmode" "1"
+}

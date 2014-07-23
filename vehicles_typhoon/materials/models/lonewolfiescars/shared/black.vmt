@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/black"
+               "$nocull" "1"
+	"$blendtintbybasealpha" "1"
+	"$nodecal" "1"
+}

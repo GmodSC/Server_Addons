@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/LoneWolfiesCars/shared/blackwithphong"
+               "$nocull" "1"
+	"$blendtintbybasealpha" "1"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 30
+}
