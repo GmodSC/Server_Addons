@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "shelf2"
+	"$surfaceprop" "MetalPanel"
+	"$model" "1"
+	"$envmapmode" "1"
+}

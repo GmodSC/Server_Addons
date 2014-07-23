@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/genericsign_02"
+	"$bumpmap" "models/sickness/genericsign_02n"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "Metal"
+	"$envmaptint" "[.3 .3 .3]"
+}

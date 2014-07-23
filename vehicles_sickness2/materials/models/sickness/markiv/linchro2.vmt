@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/markiv/linchro2"
+	"$surfaceprop" "Metal"
+	"$nocull" 1
+	"$envmaptint" "[ .7 .7 .7 ]"
+	"$envmapcontrast" 0.2
+	"$envmapsaturation" 0	//"$envmapmask" "Models/props_combine/combine_binocular01_mask"
+	"$selfillum" 0
+	"$model" 1
+	"$HalfLambert" 1
+}

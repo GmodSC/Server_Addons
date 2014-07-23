@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/cod4/Bus/stwhl"
+	"$surfaceprop" "Metal"
+}

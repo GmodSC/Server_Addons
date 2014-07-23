@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/gmcpickup_wheel"
+	"$surfaceprop" "Metal"
+}

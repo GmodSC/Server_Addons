@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\gtaiv\vehicles\primo\primo_badges"
+	"$translucent" 1
+	"$bumpmap" "models\gtaiv\vehicles\primo\primo_badges_normal"
+}

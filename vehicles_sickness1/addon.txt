@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"vehicles_sickness1"
+	"override"	"1"
+}

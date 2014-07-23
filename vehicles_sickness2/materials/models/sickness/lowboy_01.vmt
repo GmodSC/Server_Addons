@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/lowboy_01"
+	"$normalmap" "models/sickness/lowboy_01_normal"
+	"$surfaceprop" "Metal"
+	"%keywords" "metal lowboy sickness trailer tractor intermodal"
+}

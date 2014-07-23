@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/gctrim_01"
+	"$normalmap" "models/sickness/gctrim_01_normal"
+	"$surfaceprop" "Concrete"
+	"$surfaceprop2" "Concrete_Block"
+	"$envmapsaturation" 1
+	"$nocull" 1
+}

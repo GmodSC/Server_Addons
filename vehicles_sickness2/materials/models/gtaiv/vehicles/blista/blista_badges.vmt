@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\gtaiv\vehicles\blista\blista_badges"
+	"$translucent" 1
+	"$blendtintbybasealpha" 0
+	"$bumpmap" "models\gtaiv\vehicles\blista\blista_badges_normal"
+}

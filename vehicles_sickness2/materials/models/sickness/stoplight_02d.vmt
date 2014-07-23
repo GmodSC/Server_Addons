@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/stoplight_02d"
+	"$surfaceprop" "Metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+}

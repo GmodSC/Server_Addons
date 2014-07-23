@@ -1,0 +1,15 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models/gtaiv/vehicles/yankee/yankee_signs"
+	
+	"$halflambert" 1
+	"$blendtintbybasealpha" 1
+	
+	"$nodecal" "1"
+	"$model" "1"
+
+	"$phong" "0"
+	"$phongexponenttexture" "models/gtaiv/vehicles/yankee/yankee_signs_normal"
+	"$phongboost"	"6"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+}

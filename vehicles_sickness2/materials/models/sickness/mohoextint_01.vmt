@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/mohoextint_01"
+	"$surfaceprop" "Wood_Solid"
+	"$normalmap" "models/sickness/mohoextint_01n"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2  .2  .2]"
+}

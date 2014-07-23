@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/mobhom_002_b01"
+	"$normalmap" "models/sickness/mobhom_002_b01n"
+	"$surfaceprop" "Brick"
+}

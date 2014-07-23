@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/cubicle_pole_01"
+	"$surfaceprop" "Metal"
+}

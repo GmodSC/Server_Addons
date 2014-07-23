@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/elise/0001"
+	"$surfaceprop" "Metal"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/sickness/elise/lotuswspec"
+	"$envmaptint" "[.9  .9  .9]"
+}

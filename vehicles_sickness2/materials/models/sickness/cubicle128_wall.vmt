@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/cubicle128_wall"
+	"$surfaceprop" "Wood_Furniture"
+}

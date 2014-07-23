@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/zil/zilcab_0"
+	"$surfaceprop" "Metal"
+	"$nocull" 1
+	"$detail" "detail\metal_detail_01"
+	"$detailscale" "80.483"
+	"$detailblendfactor" .65
+	"$detailblendmode" "0"
+
+	"$bumpmap" "models\sickness/zil/zilcab_n"
+	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost" ".9"	
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "4"	
+}
+
+
+

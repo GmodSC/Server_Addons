@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\COD4\bus\bus_wind"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.6 .6 .6]"
+	"$translucent" 1
+	"$nocull" 1
+}

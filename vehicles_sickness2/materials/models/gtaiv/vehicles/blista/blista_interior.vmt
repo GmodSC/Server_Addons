@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\gtaiv\vehicles\blista\blista_interior"
+	"$blendtintbybasealpha" 1
+	
+}

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/duraplate_01_body6"
+	"$bumpmap" "models/sickness/duraplate_01_bodyn"
+	"$surfaceprop" "Metal"
+	"%keywords" "trailer mtl siknuz"
+}

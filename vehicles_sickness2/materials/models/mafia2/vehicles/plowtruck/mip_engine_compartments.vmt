@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/mafia2/vehicles/plowtruck/MIP_engine_compartments"
+	"$model" "1"
+}

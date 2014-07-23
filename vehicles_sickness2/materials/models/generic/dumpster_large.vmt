@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\generic\dumpster_large"
+        "$surfaceprop" "metal"
+
+}

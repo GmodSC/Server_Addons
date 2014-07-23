@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/diablo/ldw2"
+	"$surfaceprop" "Metal"
+	"$nocull" 1
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/sickness/diablo/ldws"
+	"$envmaptint" "[.7  .7  .7]"
+}

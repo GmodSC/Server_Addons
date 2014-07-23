@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/towerpic_01"
+	"$surfaceprop" "Wood_Solid"
+	"$bumpmap" "models/sickness/towerpic_01norm"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1  .1 .1]"
+}

@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/secombase_01"
+	"$bumpmap" "models/sickness/secombase_01_normal"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "Brick"
+	"$envmaptint" "[.2  .2  .2]"
+}

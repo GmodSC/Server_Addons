@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sickness/zil/zilglass"
+	"$surfaceprop" "Glass"
+	"$nocull" 1
+	"$translucent" 1
+}
