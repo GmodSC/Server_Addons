@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/supercab/interior"
+	"$bumpmap" "sentry/supercab/interior_bump"
+    $envmap "env_cubemap"
+    $envmaptint "[.5 .5 .5]"
+    $envmapcontrast "1"
+    $envmapsaturation ".5"
+    $envmapfresnel "1"
+
+    $phong "1"
+    $phongexponent "7"
+    $phongboost "10"
+    $phongfresnelranges "[.05 .3 1]"
+	"$blendtintbybasealpha" 1
+
+	$detail "sentry/supercab/interior_illummask"
+	$detailscale "1"
+	$detailblendfactor "500"
+	$detailblendmode "1"
+}

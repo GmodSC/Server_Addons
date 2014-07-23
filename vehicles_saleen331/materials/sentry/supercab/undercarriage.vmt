@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "sentry/supercab/undercarriage"
+	"$blendtintbybasealpha" 1
+}

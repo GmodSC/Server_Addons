@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+$baseTexture "models\hummerh3\879af880"
+$bumpmap "models\hummerh3\879af880DOT3"
+$phong 1
+$phongboost "0.1"
+$phongexponent 3
+$phongtint "[1 1 1]"
+$phongfresnelranges "[.3 .65 2]"
+"$blendtintbybasealpha" "1"
+}

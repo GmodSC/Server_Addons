@@ -1,0 +1,6 @@
+vertexlitgeneric
+{
+$baseTexture "models\hummerh3\36e348a8"
+$nocull 1
+"$blendtintbybasealpha" "1"
+}

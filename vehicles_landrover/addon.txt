@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"vehicles_landrover"
+	"override"	"1"
+}

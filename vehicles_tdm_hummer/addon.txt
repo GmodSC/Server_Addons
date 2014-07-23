@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"vehicles_tdm_hummer"
+	"override"	"1"
+}

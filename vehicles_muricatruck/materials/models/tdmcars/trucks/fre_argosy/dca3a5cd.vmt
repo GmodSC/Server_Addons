@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trucks/fre_argosy/dca3a5cd"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$nodecal" "1"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

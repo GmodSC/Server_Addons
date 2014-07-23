@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"vehicles_hummer"
+	"override"	"1"
+}

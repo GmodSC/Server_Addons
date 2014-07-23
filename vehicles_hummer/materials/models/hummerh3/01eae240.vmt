@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+$baseTexture "models\hummerh3\01eae240"
+$halflambert 1
+$bumpmap "models\hummerh3\01eae240_normal.vtf"
+//$basemapalphaphongmask 1
+$phong 1
+$phongboost "0.1"
+$phongexponent 2
+$phongtint "[.425 .425 .5]"
+$phongfresnelranges "[.5 .0 2]"
+$ambientocclusion 1
+"$blendtintbybasealpha" "1"
+}

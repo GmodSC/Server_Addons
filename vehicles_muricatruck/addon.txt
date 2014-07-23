@@ -1,0 +1,5 @@
+"AddonInfo"
+{
+	"name"		"vehicles_muricatruck"
+	"override"	"1"
+}

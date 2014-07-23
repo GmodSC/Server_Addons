@@ -1,0 +1,9 @@
+VertexlitGeneric
+{
+$baseTexture "models\hummerh3\d35fa905"
+	"$bumpmap" "models\hummerh3\d35fa905dot3"	"$blendtintbybasealpha" 1
+	$detail "models/hummerh3/d35fa905_illum"
+	$detailscale "1"
+	$detailblendfactor "100"
+	$detailblendmode "1"
+}
