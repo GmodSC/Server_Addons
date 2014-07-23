@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$baseTexture "models\vehicles\trucks\semitanker1\destruction_tanker_trailer_3"
+
+$phong 1
+$phongboost 2
+$phongexponent 30
+$phongfresnelranges "[.6 1 2]"
+$envmap env_cubemap
+$envmaptint "[ .5 .5 .5 ]"
+$basemapalphaphongmask 1
+$basealphaenvmapmask 1
+
+}

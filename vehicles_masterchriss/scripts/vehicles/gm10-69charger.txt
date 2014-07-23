@@ -1,0 +1,280 @@
+// Classic Muscle Car
+
+"vehicle"
+{
+	"wheelsperaxle"	"2"
+	"body"
+	{
+		"countertorquefactor"	"0.6"
+		"massCenterOverride"	"0 0 18"
+		"massoverride"		"1200"		// kg
+		"addgravity"		"0.75"
+		"maxAngularVelocity"	"720"
+	}
+	"engine"
+	{
+		"horsepower"		"475"
+		"maxrpm"		"4000"
+		"maxspeed"		"100"		// mph
+		"maxReverseSpeed"	"30"		// mph
+		"autobrakeSpeedGain"	"1.1"		// 10% speed gain while coasting, put on the brakes after that
+		"autobrakeSpeedFactor"	"3"		// Brake is this times the speed gain
+		"autotransmission"	"1"
+		"axleratio"		"4.56"
+		"gear"			"3.2"		// 1st gear
+
+		"shiftuprpm"		"3800"
+		"shiftdownrpm"		"1600"
+	
+		"boost"
+		{
+//			"force"		"0.3"	// 1.1 car body mass * gravity * inches / second ^ 2
+			"duration"	"3"	// 1 second of boost
+			"delay"		"0"	// 15 seconds before you can use it again
+			"torqueboost"	"2"	// enable "sprint" mode of vehicle, not	force type booster			
+			"maxspeed"	"105"	// maximum turbo speed
+			"force"		"1"	// use for value as a boost factor
+		}
+	}
+	"steering"
+	{
+		"degreesSlow"		"35"	// steering cone at zero to slow speed
+		"degreesFast"		"22"	// steering cone at fast speed to max speed
+		"degreesBoost"		"17"	// steering cone at max boost speed (blend toward this after max speed)
+		"steeringExponent"	"1.3"	// steering function is linear, then raised to this power to be slower at the beginning of the curve, faster at the end
+		"slowcarspeed"		"20"
+		"fastcarspeed"		"40"
+		"slowSteeringRate"	"3"		
+		"fastSteeringRate"	"2.5"
+		"steeringRestRateSlow"	"1.5"
+		"steeringRestRateFast"	"1.0"
+		"turnThrottleReduceSlow" "0.5"
+		"turnThrottleReduceFast" "0.5"
+		"brakeSteeringRateFactor"	"2"
+		"throttleSteeringRestRateFactor"	"2"
+		"boostSteeringRestRateFactor"	"1.7"
+		"boostSteeringRateFactor"	"1.7"
+
+		"powerSlideAccel"	"300"
+
+		"skidallowed"		"1"
+		"dustcloud"		"1"
+
+	}
+	// front axle
+	"axle"
+	{
+		"wheel"
+		{
+			"radius"	"15"
+			"mass"		"150"
+			"inertia"	"1.0"		// steady the car (fixes the oscillation of the axles about z)
+			"damping"	"0.5"
+			"rotdamping"	"0.2"
+			"material"	"chargerFtire"
+			"skidmaterial"	"chargerslideFtire"
+			"brakematerial" "chargertire"
+		}
+		"suspension"
+		{
+			"springConstant"		"60"
+			"springDamping"			"0.1"
+			"stabilizerConstant"		"20"
+			"springDampingCompression"	"5"
+			"maxBodyForce"			"10"
+		}
+
+		"torquefactor"	"0.05"
+		"brakefactor"	"0.3"
+	}
+
+	// rear axle
+	"axle"
+	{
+		"wheel"
+		{
+			"radius"	"15"
+			"mass"		"150"
+			"inertia"	"1.0"		// steady the car (fixes the oscillation of the axles about z)
+			"damping"	"0.5"
+			"rotdamping"	"0.2"
+			"material"	"chargertire"
+			"skidmaterial"	"chargerslideRtire"
+			"brakematerial" "chargertire"
+		}
+		"suspension"
+		{
+			"springConstant"		"60"
+			"springDamping"			"0.1"
+			"stabilizerConstant"		"20"
+			"springDampingCompression"	"5"
+			"maxBodyForce"			"10"
+		}
+		"torquefactor"	"1.05"
+		"brakefactor"	"0.7"
+	}
+}
+
+"vehicle_sounds"
+{
+	// List gears in order from lowest speed to highest speed
+
+	"gear"
+	{
+		"max_speed"		"0.05"
+		"speed_approach_factor" "1.0"
+	}
+
+	"gear"
+	{
+		"max_speed"		"0.25"
+		"speed_approach_factor" "0.07"
+	}
+	"gear"
+	{
+		"max_speed"		"0.40"
+		"speed_approach_factor" "0.07"
+	}
+	"gear"
+	{
+		"max_speed"		"0.54"
+		"speed_approach_factor" "0.035"
+	}
+	"gear"
+	{
+		"max_speed"		"0.65"
+		"speed_approach_factor" "0.015"
+	}
+	"gear"
+	{
+		"max_speed"		"2.0"
+		"speed_approach_factor" "0.03"
+	}
+        "state"
+	{
+		"name"		"SS_START_WATER"
+		"sound"		"vehicles/jetski/jetski_no_gas_start.wav"
+	}
+
+	"state"
+	{
+		"name"		"SS_START_IDLE"
+		"sound"		"vehicles/69charger/start.wav"
+		"min_time"	"6.0"
+	}
+	"state"
+	{
+		"name"		"SS_SHUTDOWN_WATER"
+		"sound"		"vehicles/jetski/jetski_off.wav"
+	}
+	"state"
+	{
+		"name"		"SS_IDLE"
+		"sound"		"vehicles/69charger/idle.wav"
+	}
+	"state"
+	{
+		"name"		"SS_REVERSE"
+		"sound"		"vehicles/69charger/reverse.wav"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_0"
+		"sound"		"vehicles/69charger/rev.wav"
+		"min_time"	"1.0"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_0_RESUME"
+		"sound"		"vehicles/69charger/idle.wav"
+		"min_time"	"0.75"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_1"
+		"sound"		"vehicles/69charger/First.wav"
+		"min_time"	"1.25"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_1_RESUME"
+		"sound"		"vehicles/69charger/First.wav"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_2"
+		"sound"		"vehicles/69charger/Second.wav"
+		"min_time"	"1.25"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_2_RESUME"
+		"sound"		"vehicles/69charger/Second.wav"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_3"
+		"sound"		"vehicles/69charger/Third.wav"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_3_RESUME"
+		"sound"		"vehicles/69charger/Third.wav"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_4"
+		"sound"		"vehicles/69charger/Fourth_fast_shifting.wav"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_GEAR_4_RESUME"
+		"sound"		"vehicles/69charger/Fourth_fast_shifting.wav"
+		"min_time"	"0.5"
+	}
+	"state"
+	{
+		"name"		"SS_SLOWDOWN_HIGHSPEED"
+		"sound"		"vehicles/69charger/fast_to_stop.wav"
+	}
+	"state"
+	{
+		"name"		"SS_SLOWDOWN"
+		"sound"		"vehicles/69charger/slow_to_stop.wav"
+	}
+	"state"
+	{
+		"name"		"SS_TURBO"
+		"sound"		"vehicles/69charger/boost.wav"
+		"min_time"	"2.5"
+	}
+	"state"
+	{
+		"name"		"SS_SHUTDOWN"
+		"sound"		"vehicles/69charger/stop.wav"
+	}
+	"crashsound"
+	{
+		"min_speed"			"300"
+		"min_speed_change"	"200"
+		"sound"				"atv_impact_medium"
+		"gear_limit"		"1"
+	}
+	"crashsound"
+	{
+		"min_speed"			"400"
+		"min_speed_change"	"300"
+		"sound"				"atv_impact_heavy"
+	}
+
+	
+	"skid_lowfriction"		"atv_skid_lowfriction"
+	"skid_normalfriction"	"atv_skid_normalfriction"
+	"skid_highfriction"		"atv_skid_highfriction"
+}

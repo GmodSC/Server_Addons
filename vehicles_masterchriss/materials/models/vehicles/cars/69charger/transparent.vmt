@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"Models/vehicles/cars/69charger/transparent"
+	"$bumpmap"	      "Models/vehicles/cars/69charger/transparent_normal"
+	"$translucent" "1"
+	
+	"$halflambert" 1
+	"$phong" "1" //this turns on the phong effect
+	"$phongboost" "3" //use this to increase/decrease the highlight intensity 
+	"$phongfresnelranges" "[0.5 0.8 5]" //this are the highlight intensities at different incidence angles from the camera (first value is perpendicular to the camera and the 3rd value is away from the camera)
+	"$phongexponenttexture"  "Models/vehicles/cars/69Charger/transparent_exp"
+
+    "$rimlight" "1"
+	"$rimlightexponent" "250"
+	"$rimlightboost" "0.01"
+	"$rimmask" "0"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[1 1 1]"
+	
+	!hdr?$envmaptint "[ 1 1 1 ]"
+	hdr?$envmaptint "[ 0.6 0.6 0.6 ]"
+	
+	"$normalmapalphaenvmapmask" 1
+	"$envmapFresnel" "1"
+}

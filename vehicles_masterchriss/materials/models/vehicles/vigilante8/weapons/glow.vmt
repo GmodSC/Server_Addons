@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"Models/vehicles/vigilante8/weapons/Glow"
+	"$bumpmap"	      "Models/vehicles/vigilante8/weapons/Glow_normal"
+	"$translucent" "1"
+	"$selfillum"	"1"
+	"$nodecal" "1"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"Models/vehicles/vigilante8/weapons/Round"
+	"$bumpmap"	      "Models/vehicles/vigilante8/weapons/flat_normal"
+	"$selfillum"	"1"
+	"$nodecal" "1"
+}
